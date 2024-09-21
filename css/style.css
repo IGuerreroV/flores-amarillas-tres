@@ -22,7 +22,7 @@ body{
 }
 
 .botones a{
-    background-color: #0a2be9;
+    background-color: #FF6F61   ;
     padding: 9px;
     border-radius: 80px;
     -webkit-border-radius: 80px;
@@ -41,12 +41,18 @@ body{
     font-weight: 900;
 }
 .greetings > span{
-    animation: glow 2.5s ease-in-out infinite;
+    animation: glow 4.5s ease-in-out infinite;
 }
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow:
+    0 0 12px #F0E68C,
+    0 0 50px #F0E68C,
+    0 0 100px #F0E68C;
+
+
+
     }
     10%, 90%{
         color: #111;
@@ -54,19 +60,19 @@ body{
     }
 }
 .greetings > span:nth-child(2){
-    animation-delay: .2s ;
+    animation-delay: .5s ;
 }
 .greetings > span:nth-child(3){
-    animation-delay: .4s ;
+    animation-delay: .6s ;
 }
 .greetings > span:nth-child(4){
-    animation-delay: .6s;
-}
-.greetings > span:nth-child(5){
     animation-delay: .8s;
 }
-.greetings > span:nth-child(6){
+.greetings > span:nth-child(5){
     animation-delay: 1s;
+}
+.greetings > span:nth-child(6){
+    animation-delay: 7s;
 }
 
 .description{
